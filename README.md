@@ -1,5 +1,5 @@
 # PRASEMap 
-A Probability Reasoning and Semantic Embedding-based Knowledge Graph Alignment System
+The code of paper _**PRASEMap: A Probabilistic Reasoning and Semantic Embedding based Knowledge Graph Alignment System**_ [[arxiv](https://arxiv.org/pdf/2106.08801.pdf)] [[cikm](https://dl.acm.org/doi/pdf/10.1145/3459637.3481972)] in Proceedings of CIKM 2021.
 
 The online demonstration is available at https://prasemap.qizhy.com/ 
 ## Overview
@@ -112,3 +112,26 @@ PRASEMap is compatible to different embedding-based KG alignment approaches if t
 - Load entity embeddings using insert\_ent\_embed\_by\_name(ent\_name, ent\_embed) of KG.
 - Run PR module again.
 - ...   
+
+## Citation
+
+If you use this model or code, please cite it as follows:
+
+```
+@inproceedings{10.1145/3459637.3481972,
+  author = {Qi, Zhiyuan and Zhang, Ziheng and Chen, Jiaoyan and Chen, Xi and Zheng, Yefeng},
+  title = {PRASEMap: A Probabilistic Reasoning and Semantic Embedding Based Knowledge Graph Alignment System},
+  year = {2021},
+  isbn = {9781450384469},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3459637.3481972},
+  doi = {10.1145/3459637.3481972},
+  booktitle = {Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},
+  pages = {4779–4783},
+  numpages = {5},
+  keywords = {knowledge graph, knowledge graph alignment, embedding, probability reasoning},
+  location = {Virtual Event, Queensland, Australia},
+  series = {CIKM '21}
+}
+```
